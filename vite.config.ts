@@ -6,7 +6,7 @@ import { VitePluginFonts } from 'vite-plugin-fonts'
 import { createHtmlPlugin } from 'vite-plugin-html'
 import viteImagemin from 'vite-plugin-imagemin'
 
-import config from './config.js'
+import config from './vite.plugin-config.js'
 import postcss from './postcss.config.js'
 
 const { imagemin } = config
@@ -25,8 +25,8 @@ export default defineConfig({
       custom: {
         families: [
           {
-            name: 'CascadiaCodePL',
-            src: './src/assets/fonts/*.woff2'
+            name: 'PlusJakartaSans',
+            src: './src/assets/fonts/*.ttf'
           }
         ],
         display: 'swap',

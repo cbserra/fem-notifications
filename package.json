@@ -16,9 +16,9 @@
     "lint": "eslint --ignore-path .gitignore --ext .js,.jsx,.ts,.tsx .",
     "lint:fix": "yarn lint -- --fix",
     "lint-staged": "lint-staged — config .lintstagedrc",
-    "clean": "rimraf node_modules && npm install --no-audit --no-fund --omit=optional",
+    "clean": "rimraf node_modules && yarn install --ignore-optional",
     "reset:vite": "rimraf ./.vite-cache ./dist",
-    "prepare": "husky install"
+    "commit": "git-cz"
   },
   "browserslist": [
     "defaults",
@@ -26,8 +26,7 @@
   ],
   "dependencies": {
     "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "^6.3.0"
+    "react-dom": "^18.0.0"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.19.4",
@@ -70,5 +69,11 @@
     "vite-plugin-fonts": "^0.6.0",
     "vite-plugin-html": "^3.2.0",
     "vite-plugin-imagemin": "^0.6.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }

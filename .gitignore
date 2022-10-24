@@ -1,3 +1,15 @@
+# Avoid accidental upload of the Sketch and Figma design files
+#####################################################
+## Please do not remove lines 5 and 6 - thanks!  ##
+#####################################################
+*.sketch
+*.fig
+# Avoid accidental XD upload if you convert the design file
+###############################################
+## Please do not remove line 12 - thanks!  ##
+###############################################
+*.xd
+
 # Logs
 logs
 *.log
@@ -7,6 +19,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Build
 node_modules
 build
 dist
@@ -23,4 +36,6 @@ dist-ssr
 *.sln
 *.sw?
 
+# Misc
 .env
+.prettierignore
