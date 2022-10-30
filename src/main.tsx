@@ -3,16 +3,15 @@ import 'virtual:fonts.css'
 
 import React from 'react'
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
+import { NotificationProvider } from './contexts/NotificationContext'
+import Header from './components/Header'
 import App from './components/App'
 
 createRoot(document.getElementById('root') as Element).render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route element={<App />} path="/" />
-      </Routes>
-    </BrowserRouter>
+    <NotificationProvider>
+      <App />
+    </NotificationProvider>
   </React.StrictMode>
 )
