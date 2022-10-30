@@ -1,3 +1,4 @@
 {
-  "conventionalCommits.scopes": ["dependencies"]
+  "conventionalCommits.scopes": ["dependencies"],
+  "prettier.configPath": ".prettierrc"
 }

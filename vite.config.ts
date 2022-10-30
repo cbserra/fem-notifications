@@ -43,7 +43,11 @@ export default defineConfig({
     alias: [
       { find: '@/', replacement: '/src' },
       { find: '@/Assets', replacement: '/src/assets' },
-      { find: '@/Components', replacement: '/src/components' }
+      { find: '@/Components', replacement: '/src/components' },
+      { find: '@/Contexts', replacement: '/src/contexts' },
+      { find: '@/Data', replacement: '/src/data' },
+      { find: '@/Types', replacement: '/src/types' },
+      { find: '@/Utils', replacement: '/src/utils' }
     ]
   }
 })
