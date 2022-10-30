@@ -1,0 +1,73 @@
+[
+  {
+    "body": {
+      "linkTitle": "My first tournament today!",
+      "linkUrl": "#"
+    },
+    "id": 1,
+    "typeEnum": "REACTED_POST",
+    "typeId": 8,
+    "userId": 1,
+    "when": "1m ago"
+  },
+  {
+    "id": 2,
+    "typeEnum": "FOLLOWED_YOU",
+    "typeId": 7,
+    "userId": 2,
+    "when": "5m ago"
+  },
+  {
+    "body": {
+      "linkTitle": "Chess Club",
+      "linkUrl": "#"
+    },
+    "id": 3,
+    "typeEnum": "JOIN_GROUP",
+    "typeId": 1,
+    "userId": 3,
+    "when": "1 day ago"
+  },
+  {
+    "body": {
+      "message": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game."
+    },
+    "id": 4,
+    "typeEnum": "PRIVATE_MESSAGE",
+    "typeId": 3,
+    "userId": 4,
+    "when": "5 days ago"
+  },
+  {
+    "body": {
+      "photoUrl": "image-chess.webp"
+    },
+    "id": 5,
+    "typeEnum": "COMMENTED_PICTURE",
+    "typeId": 5,
+    "userId": 5,
+    "when": "1 week ago"
+  },
+  {
+    "body": {
+      "linkTitle": "5 end-game strategies to increase your win rate",
+      "linkUrl": "#"
+    },
+    "id": 6,
+    "typeEnum": "REACTED_POST",
+    "typeId": 8,
+    "userId": 6,
+    "when": "2 weeks ago"
+  },
+  {
+    "body": {
+      "linkTitle": "Chess Club",
+      "linkUrl": "#"
+    },
+    "id": 7,
+    "typeEnum": "LEAVE_GROUP",
+    "typeId": 2,
+    "userId": 7,
+    "when": "2 weeks ago"
+  }
+]

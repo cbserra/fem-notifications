@@ -1,0 +1,42 @@
+[
+ {
+  "id": 1,
+  "typeEnum": "JOIN_GROUP",
+  "typeValue": "has joined your group"
+ },
+ {
+  "id": 2,
+  "typeEnum": "LEAVE_GROUP",
+  "typeValue": "left the group"
+ },
+ {
+  "id": 3,
+  "typeEnum": "PRIVATE_MESSAGE",
+  "typeValue": "sent you a private message"
+ },
+ {
+  "id": 4,
+  "typeEnum": "COMMENTED_POST",
+  "typeValue": "commented on your post"
+ },
+ {
+  "id": 5,
+  "typeEnum": "COMMENTED_PICTURE",
+  "typeValue": "commented on your picture"
+ },
+ {
+  "id": 6,
+  "typeEnum": "LIKED_POST",
+  "typeValue": "liked your post"
+ },
+ {
+  "id": 7,
+  "typeEnum": "FOLLOWED_YOU",
+  "typeValue": "followed you"
+ },
+ {
+  "id": 8,
+  "typeEnum": "REACTED_POST",
+  "typeValue": "reacted to your post"
+ }
+]

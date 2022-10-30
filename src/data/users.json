@@ -1,0 +1,37 @@
+[
+  {
+    "avatar": "avatar-mark-webber.webp",
+    "id": 1,
+    "name": "Mark Webber"
+  },
+  {
+    "avatar": "avatar-angela-gray.webp",
+    "id": 2,
+    "name": "Angela Gray"
+  },
+  {
+    "avatar": "avatar-jacob-thompson.webp",
+    "id": 3,
+    "name": "Jacob Thompson"
+  },
+  {
+    "avatar": "avatar-rizky-hasanuddin.webp",
+    "id": 4,
+    "name": "Rizky Hasanuddin"
+  },
+  {
+    "avatar": "avatar-kimberly-smith.webp",
+    "id": 5,
+    "name": "Kimberly Smith"
+  },
+  {
+    "avatar": "avatar-nathan-peterson.webp",
+    "id": 6,
+    "name": "Nathan Peterson"
+  },
+  {
+    "avatar": "avatar-anna-kim.webp",
+    "id": 7,
+    "name": "Anna Kim"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "isUnread": true
+  },
+  {
+    "id": 2,
+    "isUnread": true
+  },
+  {
+    "id": 3,
+    "isUnread": true
+  },
+  {
+    "id": 4,
+    "isUnread": false
+  },
+  {
+    "id": 5,
+    "isUnread": false
+  },
+  {
+    "id": 6,
+    "isUnread": false
+  },
+  {
+    "id": 7,
+    "isUnread": false
+  }
+]
